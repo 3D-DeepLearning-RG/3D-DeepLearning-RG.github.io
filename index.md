@@ -50,6 +50,7 @@ BREAK  |  |  |  |
 <br>
 ## <font color='#8EA7E9'>#</font> Useful Resources
 - [This repository on Github](https://github.com/3D-DeepLearning-RG/3D-DeepLearning-RG.github.io)
+- [Neural Fields in Robotics: A Survey](https://arxiv.org/abs/2410.20220): survey paper that analyses more than 200 works on Neural Fields in the simulated and real-world.
 - [Awesome 3D Gaussian Splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting): comprehensive list of papers on 3D Gaussian Splatting, curated by Janusch (aka MrNeRF)
 - [hu-po YoutTube stream](https://www.youtube.com/@hu-po): amazing videos on various papers, often in the realm of 3D Vision and generative models.
 - [3DV'24 3D Gaussian Splatting tutorial](https://3dgstutorial.github.io/index.html): Tutorial on 3DGS, presented by the main authors of the original paper. 
