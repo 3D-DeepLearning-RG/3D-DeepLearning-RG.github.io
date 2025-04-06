@@ -6,9 +6,16 @@
     background-color: #ffffff; /* light yellow */
     border: 3px solid #a000c8a8; /* light grey border */
     border-radius: 8px; /* rounded corners */
-    padding: 10px 20px; /* padding inside the box */
+    // padding: 10px 20px; /* padding inside the box */
     display: inline-block; /* makes it wrap the text only */
     // box-shadow: 3px 3px 5px rgba(0,0,0,0.3); /* 3D effect */
+    padding: 1.5rem; /* p-6 */
+    border-radius: 0.75rem; /* rounded-xl */
+    // box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+    max-width: 48rem; /* max-w-3xl */
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box; /* Ensure padding/border included in width/height */
   }
 
 .touch-rectangle {
@@ -30,3 +37,175 @@
   background-color: #530367d6;
   text-decoration: none; /* Ensures no underline appears on hover */
 }
+
+// Banner
+#cta-banner-unique {
+  /* Apply Inter font only within this container */
+  background-color: white;
+  padding: 1.5rem; /* p-6 */
+  border-radius: 0.75rem; /* rounded-xl */
+  // box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+  max-width: 48rem; /* max-w-3xl */
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #a000c8a8; /* light grey border */
+  // border: 1px solid #E5E7EB; /* border border-gray-200 */
+  box-sizing: border-box; /* Ensure padding/border included in width/height */
+}
+
+/* Apply box-sizing to children as well for consistency */
+#cta-banner-unique *,
+#cta-banner-unique *::before,
+#cta-banner-unique *::after {
+  box-sizing: inherit;
+}
+
+
+#cta-banner-unique .cta-header {
+  text-align: center; /* text-center */
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+#cta-banner-unique .cta-title {
+  font-size: 1.5rem; /* text-2xl */
+  line-height: 2rem;
+  font-weight: 700; /* font-bold */
+  color: #1F2937; /* text-gray-800 */
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+
+#cta-banner-unique .cta-subtitle {
+  color: #4B5563; /* text-gray-600 */
+  font-size: 1rem; /* text-base */
+  line-height: 1.5rem;
+}
+
+#cta-banner-unique .cta-buttons {
+  display: flex;
+  flex-direction: column; /* flex-col */
+  align-items: center; /* items-center */
+  justify-content: center; /* justify-center */
+  gap: 1rem; /* gap-4 */
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+#cta-banner-unique .cta-button {
+  display: inline-flex; /* Use inline-flex for anchors acting like buttons */
+  align-items: center;
+  justify-content: center;
+  font-weight: 600; /* font-semibold */
+  padding: 0.75rem 1.5rem; /* py-3 px-6 */
+  border-radius: 0.5rem; /* rounded-lg */
+  transition-property: background-color, box-shadow; /* transition */
+  transition-timing-function: ease-in-out; /* ease-in-out */
+  transition-duration: 300ms; /* duration-300 */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); /* shadow */
+  color: white; /* text-white */
+  text-decoration: none; /* Remove default anchor underline */
+  width: 100%; /* w-full */
+  text-align: center; /* text-center */
+}
+
+#cta-banner-unique .cta-button:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* hover:shadow-lg */
+}
+
+#cta-banner-unique .cta-button-slack {
+  background-color: #9333EA; /* bg-purple-600 */
+}
+#cta-banner-unique .cta-button-slack:hover {
+  background-color: #7E22CE; /* hover:bg-purple-700 */
+}
+
+#cta-banner-unique .cta-button-calendar {
+  background-color: #9333EA; /* bg-purple-600 */
+}
+#cta-banner-unique .cta-button-calendar:hover {
+  background-color: #7E22CE; /* hover:bg-purple-700 */
+}
+
+#cta-banner-unique .cta-button img.lucide-icon {
+  width: 1.25rem; /* w-5 */
+  height: 1.25rem; /* h-5 */
+  margin-right: 0.5rem; /* mr-2 */
+  /* Specific Lucide icon style from original */
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+#cta-banner-unique .cta-alert {
+  text-align: center; /* text-center */
+  background-color: #F5F3FF; /* bg-purple-50 */
+  border: 1px solid #E9D5FF; /* border border-purple-200 */
+  color: #6B21A8; /* text-purple-800 */
+  padding: 0.75rem 1rem; /* py-3 px-4 */
+  border-radius: 0.5rem; /* rounded-lg */
+  position: relative; /* relative (might not be strictly needed here, but matches original) */
+  margin: 1rem; /* mt-6 */
+}
+
+#cta-banner-unique .cta-alert strong {
+  font-weight: 600; /* font-semibold */
+}
+
+#cta-banner-unique .cta-alert .alert-message {
+   display: block; /* block */
+   margin-left: 0.25rem; /* ml-1 */
+}
+
+#cta-banner-unique .cta-alert code {
+  background-color: #EDE9FE; /* bg-purple-100 */
+  color: #581C87; /* text-purple-900 */
+  padding: 0.125rem 0.375rem; /* py-0.5 px-1.5 */
+  border-radius: 0.25rem; /* rounded */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* font-mono */
+  font-size: 0.875rem; /* text-sm */
+  line-height: 1.25rem;
+}
+
+#cta-banner-unique .cta-footer {
+  text-align: center; /* text-center */
+  color: #6B7280; /* text-gray-500 */
+  font-size: 0.875rem; /* text-sm */
+  line-height: 1.25rem;
+  margin-top: 1rem; /* mt-4 */
+}
+
+#cta-banner-unique .cta-footer a {
+  color: #9333EA; /* text-purple-600 */
+  text-decoration: none; /* Remove default underline */
+}
+
+#cta-banner-unique .cta-footer a:hover {
+  text-decoration: underline; /* hover:underline */
+}
+
+/* --- Responsive Styles (sm: breakpoint = 640px) --- */
+@media (min-width: 640px) {
+  #cta-banner-unique {
+      padding: 2rem; /* sm:p-8 */
+  }
+
+  #cta-banner-unique .cta-title {
+      font-size: 1.875rem; /* sm:text-3xl */
+      line-height: 2.25rem;
+  }
+
+  #cta-banner-unique .cta-subtitle {
+      font-size: 1.125rem; /* sm:text-lg */
+      line-height: 1.75rem;
+  }
+
+  #cta-banner-unique .cta-buttons {
+      flex-direction: row; /* sm:flex-row */
+  }
+
+  #cta-banner-unique .cta-button {
+       width: auto; /* sm:w-auto */
+  }
+
+  #cta-banner-unique .cta-alert .alert-message {
+       display: inline; /* sm:inline */
+  }
+}
+
+

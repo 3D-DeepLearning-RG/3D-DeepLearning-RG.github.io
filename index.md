@@ -2,34 +2,20 @@
 layout: default
 ---
 
+{% include banner.html %}
+
 <img src='img/inverse_rendering_urban.webp' style='object-fit: cover;'>
 *<font size="2" >Neural inverse rendering according to GPT-4V</font>*
 
-Welcome to the **3D Deep Learning Reading Group**. We are an online community that meets every other week to discuss the latest developments in 3D Deep Learning and their applications in the virtual and physical world. We are particularly interested in **3D Gaussian Splatting, Neural Fields, Implicit Representations, 3D Reconstruction and Generation, 3D in Robotics and VR/AR**, among other topics. Please check a curated list of resources at the end of the page. We welcome all suggestions on the reading group and paper discussion. Join us to stay current on this exciting field!
+Welcome to the **3D Deep Learning Reading Group**. We are an online community that meets to discuss the latest developments in 3D Deep Learning and their applications in the virtual and physical world. We are particularly interested in **3D Gaussian Splatting, Neural Fields, Implicit Representations, 3D Reconstruction and Generation, 3D in Robotics and VR/AR**, among other topics. Please check a curated list of resources at the end of the page. We welcome all suggestions on the reading group and paper discussion. Join us to stay current on this exciting field!
 
 <div class="rounded-rectangle">
-<span style='font-weight: 700'>When:</span> Usually on Wednesdays, 5:00-6:00 PM London time, but it's flexible<br>
-<span style='font-weight: 700'>Where:</span> Link shared on Slack in the #reading_group channel (see details below)
+<span style='font-weight: 700'>When:</span> Usually on Wednesdays, 5:00-6:00 PM London time (flexible)<br>
+<span style='font-weight: 700'>Where:</span> Link shared on Slack in the #reading_group channel (see details above)
 </div>
 
 <br>
-## <font color='#8EA7E9'>#</font> Join us
 
-We have a dedicated group on Slack in the Neural Fields workspace, where we coordinate our meetings and discussions.
-
-<div style="display: block;text-align: center;">
-    <a href="https://join.slack.com/t/neuralfields/shared_invite/zt-2g0gtol8l-PgiDnHmCpWVidYzXypO7_Q" class="touch-rectangle">Join here</a>
-    <a href="https://calendar.google.com/calendar/u/0?cid=NTk4MGNmN2IyOTA0NWU1ODViOGEwOTY0YWY3MjE1MDI2YjA0OTM5ZWUzMWNkODYzOWM3NmVmMzA3MDc4YTQ3Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t" class="touch-rectangle">Add Calendar</a>
-</div>
-
-
-- [Join here](https://join.slack.com/t/neuralfields/shared_invite/zt-2g0gtol8l-PgiDnHmCpWVidYzXypO7_Q), or [please let me know](contact) if the link is expired.
-- The Slack channel we use is the **#reading_group** channel. If you haven't added it already, please go to **Add channels** or **Browse channels** from the Slack workspace to find it. 
-- [Add the Google Calendar](https://calendar.google.com/calendar/u/0?cid=NTk4MGNmN2IyOTA0NWU1ODViOGEwOTY0YWY3MjE1MDI2YjA0OTM5ZWUzMWNkODYzOWM3NmVmMzA3MDc4YTQ3Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to stay up-to-date with the sessions.
-
-Don't hesitate to reach out if you have any questions or need more information.
-
-<br>
 ## <font color='#8EA7E9'>#</font> Sessions
 
 When | Presenter| What       | Notes
@@ -47,6 +33,7 @@ BREAK  |  |  |  |
 17/04/2024 | Mauro Comi | Physics and 3D Gaussian Splatting | [PhysGaussian](https://xpandora.github.io/PhysGaussian/), [Spring-Mass 3DGS](https://zlicheng.com/spring_gaus/) |
 29/04/2024 | Mauro Comi | LLMs and 3D Gaussian Splatting | Feature 3DGS, Gaussian Grouping |
 BREAK  |  |  |  |
+09/04/2025 | Brian Kim | MeshUp | [[paper]](https://threedle.github.io/MeshUp/) |
 
 <br>
 ## <font color='#8EA7E9'>#</font> Useful Resources
