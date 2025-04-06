@@ -4,7 +4,7 @@
 
 .rounded-rectangle {
     background-color: #ffffff; /* light yellow */
-    border: 3px solid #a000c8a8; /* light grey border */
+    border: 2px solid #a000c8a8; /* light grey border */
     border-radius: 8px; /* rounded corners */
     // padding: 10px 20px; /* padding inside the box */
     display: inline-block; /* makes it wrap the text only */
@@ -48,7 +48,7 @@
   max-width: 48rem; /* max-w-3xl */
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #a000c8a8; /* light grey border */
+  border: 2px solid #a000c8a8; /* light grey border */
   // border: 1px solid #E5E7EB; /* border border-gray-200 */
   box-sizing: border-box; /* Ensure padding/border included in width/height */
 }

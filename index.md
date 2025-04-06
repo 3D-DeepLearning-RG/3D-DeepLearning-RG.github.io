@@ -2,6 +2,8 @@
 layout: default
 ---
 
+## <font color='#8EA7E9'>#</font> Join Us
+
 {% include banner.html %}
 
 <img src='img/inverse_rendering_urban.webp' style='object-fit: cover;'>
