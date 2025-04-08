@@ -36,6 +36,8 @@ BREAK  |  |  |  |
 29/04/2024 | Mauro Comi | LLMs and 3D Gaussian Splatting | Feature 3DGS, Gaussian Grouping |
 BREAK  |  |  |  |
 09/04/2025 | Brian Kim | MeshUp | [[paper]](https://threedle.github.io/MeshUp/) |
+09/04/2025 | Andreea Ardelean | Gen3DSR | [[paper]](hhttps://andreeadogaru.github.io/Gen3DSR/) |
+09/04/2025 | Hengyi Wang | Spanner | [[paper]](https://hengyiwang.github.io/projects/spanner) |
 
 <br>
 ## <font color='#8EA7E9'>#</font> Useful Resources
